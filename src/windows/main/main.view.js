@@ -4,7 +4,7 @@
 ////////
 
 var remote = require('remote'),
-    remoteIpc = remote.require('ipc');
+    remoteIpc = remote.require('electron').ipcMain;
 
 angular
     .module('MainView', ['Utils'])
